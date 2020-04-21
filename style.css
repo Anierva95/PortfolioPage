@@ -12,7 +12,6 @@ body {
     font-stretch: wider;
     line-height: 1.7;
     color: whitesmoke;
-    text-align: center;
     padding: 30px;
 }
 
@@ -27,7 +26,7 @@ body {
     background-position: top;
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     font-weight: 100;
-
+    text-align: center;
 }
 
 .logobox {
@@ -37,21 +36,31 @@ body {
 }
 
 .headerText {
-    position: relative;
-    top: 15%;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }
 
 .headerText h1 {
     letter-spacing: 20px;
     font-size: 60px;
+    animation-name: fadeInToRight;
+    animation-duration: 1s;
 }
 
 .headerText h6 {
     letter-spacing: 5px;
     font-size: 30px;
-    margin-bottom: 15px;
+    margin-bottom: 30px;
+    animation-name: fadeInToLeft;
+    animation-duration: 1s;
 }
 
+.headerText button {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+}
 
 .AboutMe {
     background: -webkit-linear-gradient(#1293d2, #3b3c9c);
@@ -68,4 +77,53 @@ button {
     padding: 15px 40px;
     border-radius: 25%;
     font-family: "Lato";
+}
+
+@keyframes fadeInToRight {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px)
+    }
+
+    80% {
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+
+}
+
+@keyframes fadeInToLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(100px)
+    }
+
+    80% {
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0)
+    }
+}
+
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(100px)
+    }
+
+    80% {
+
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0)
+    }
 }
