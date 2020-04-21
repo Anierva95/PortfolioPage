@@ -28,3 +28,13 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
     font-weight: 100;
 }
+
+.logobox {
+    position: absolute;
+    left: 2em;
+}
+
+.headerText {
+    position: relative;
+    top: 30%
+}
