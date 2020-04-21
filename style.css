@@ -31,10 +31,27 @@ body {
 
 .logobox {
     position: absolute;
-    left: 2em;
+    top: 2em;
+    left: 3em
 }
 
 .headerText {
     position: relative;
     top: 30%
+}
+
+.AboutMe {
+    background: -webkit-linear-gradient(#7ed56fbe, #28b485c2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+button {    
+    font-size: 15px;
+    font-family: 'Lato';
+    font-stretch: wider;
+    line-height: 1.7;
+    text-align: center;
+    padding: 15px 40px;
+    border-radius: 25%;
 }
