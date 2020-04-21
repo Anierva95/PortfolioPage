@@ -46,7 +46,7 @@ body {
     letter-spacing: 20px;
     font-size: 60px;
     animation-name: fadeInToRight;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 }
 
 .headerText h6 {
@@ -54,12 +54,12 @@ body {
     font-size: 30px;
     margin-bottom: 30px;
     animation-name: fadeInToLeft;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 }
 
 .headerText button {
     animation-name: fadeInUp;
-    animation-duration: 1s;
+    animation-duration: 1.5s;
 }
 
 .AboutMe {
@@ -86,7 +86,7 @@ button {
     }
 
     80% {
-
+        transform: translateX(10px);
     }
 
     100% {
@@ -103,7 +103,7 @@ button {
     }
 
     80% {
-
+        transform: translateX(-10px);
     }
 
     100% {
@@ -119,7 +119,7 @@ button {
     }
 
     80% {
-
+        transform: translateY(-10px)
     }
 
     100% {
