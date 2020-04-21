@@ -20,13 +20,14 @@ body {
     height: 95vh;
     background-image: linear-gradient(
         to bottom right,
-        #7ed56fbe, 
-        #28b485c2),
-        url(https://i.pinimg.com/originals/ae/c8/82/aec882a6d5a93e17eab0961437a61a0d.jpg);
+        #1292d2bb, 
+        #3b3d9cbc),
+        url(https://www.ubackground.com/_ph/3/125290873.jpg);
     background-size: cover;
     background-position: top;
-    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 75vh);
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     font-weight: 100;
+
 }
 
 .logobox {
@@ -37,11 +38,23 @@ body {
 
 .headerText {
     position: relative;
-    top: 30%
+    top: 15%;
 }
 
+.headerText h1 {
+    letter-spacing: 20px;
+    font-size: 60px;
+}
+
+.headerText h6 {
+    letter-spacing: 5px;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
 .AboutMe {
-    background: -webkit-linear-gradient(#7ed56fbe, #28b485c2);
+    background: -webkit-linear-gradient(#1293d2, #3b3c9c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -54,4 +67,5 @@ button {
     text-align: center;
     padding: 15px 40px;
     border-radius: 25%;
+    font-family: "Lato";
 }
