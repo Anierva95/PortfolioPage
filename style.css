@@ -57,26 +57,44 @@ body {
     animation-duration: 1.5s;
 }
 
-.headerText button {
-    animation-name: fadeInUp;
-    animation-duration: 1.5s;
-}
-
 .AboutMe {
     background: -webkit-linear-gradient(#1293d2, #3b3c9c);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-button {    
+.btn {    
+    display: inline-block;
     font-size: 15px;
     font-family: 'Lato';
     font-stretch: wider;
     line-height: 1.7;
     text-align: center;
     padding: 15px 40px;
-    border-radius: 25%;
     font-family: "Lato";
+    animation-name: fadeInUp;
+    animation-duration: 1.5s;
+    background-color: white;
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0px 10px 20px rgba(0,0,0,.3);
+}
+
+.btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0px 10px 10px rgba(0,0,0,.3);
+}
+
+.btn:link,
+.btn:visited
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    border-radius: 100px;
+    transition: all .2s;
 }
 
 @keyframes fadeInToRight {
@@ -115,15 +133,15 @@ button {
 @keyframes fadeInUp {
     0% {
         opacity: 0;
-        transform: translateY(100px)
+        transform: translateY(100px);
     }
 
     80% {
-        transform: translateY(-10px)
+        transform: translateY(-10px);
     }
 
     100% {
         opacity: 1;
-        transform: translateY(0)
+        transform: translateY(0);
     }
 }
