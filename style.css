@@ -6,9 +6,13 @@
     font-weight: 400;
 }
 
+html {
+    font-size: 10px;
+}
+
 body {
-    font-size: 30px;
-    font-family: 'Lato';
+    /* font-size: 30px; */
+    font-family: 'Lato', sans-serif;
     font-stretch: wider;
     line-height: 1.7;
     color: whitesmoke;
@@ -72,9 +76,14 @@ body {
     text-align: center;
     padding: 15px 40px;
     font-family: "Lato";
-    animation-name: fadeInUp;
-    animation-duration: 1.5s;
     background-color: white;
+}
+
+.btn-animated {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards;
 }
 
 .btn:hover {
