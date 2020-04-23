@@ -16,7 +16,7 @@ body {
     font-stretch: wider;
     line-height: 1.7;
     color: whitesmoke;
-    padding: 30px;
+    padding: 3rem;
 }
 
 #header {
@@ -35,8 +35,9 @@ body {
 
 .logobox {
     position: absolute;
-    top: 2em;
-    left: 3em
+    font-size: 3rem;
+    top: 5rem;
+    left: 8rem
 }
 
 .headerText {
@@ -47,16 +48,16 @@ body {
 }
 
 .headerText h1 {
-    letter-spacing: 20px;
-    font-size: 60px;
+    letter-spacing: 2rem;
+    font-size: 6rem;
     animation-name: fadeInToRight;
     animation-duration: 1.5s;
 }
 
 .headerText h6 {
-    letter-spacing: 5px;
-    font-size: 30px;
-    margin-bottom: 30px;
+    letter-spacing: .5rem;
+    font-size: 3rem;
+    margin-bottom: 3rem;
     animation-name: fadeInToLeft;
     animation-duration: 1.5s;
 }
@@ -69,12 +70,12 @@ body {
 
 .btn {    
     display: inline-block;
-    font-size: 15px;
+    font-size: 1.5rem;
     font-family: 'Lato';
     font-stretch: wider;
     line-height: 1.7;
     text-align: center;
-    padding: 15px 40px;
+    padding: 1.5rem 4rem;
     font-family: "Lato";
     background-color: white;
 }
@@ -87,13 +88,13 @@ body {
 }
 
 .btn:hover {
-    transform: translateY(-3px);
-    box-shadow: 0px 10px 20px rgba(0,0,0,.3);
+    transform: translateY(-.3rem);
+    box-shadow: 0rem 1rem 2rem rgba(0,0,0,.3);
 }
 
 .btn:active {
-    transform: translateY(-1px);
-    box-shadow: 0px 10px 10px rgba(0,0,0,.3);
+    transform: translateY(-.1rem);
+    box-shadow: 0rem 1rem 1rem rgba(0,0,0,.3);
 }
 
 .btn:link,
@@ -102,7 +103,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: gray;
-    border-radius: 100px;
+    border-radius: 10rem;
     transition: all .2s;
     position: relative;
 }
@@ -112,7 +113,7 @@ body {
     display: inline-block;
     height: 100%;
     width: 100%;
-    border-radius: 100px;
+    border-radius: 10rem;
     background-color: white;
     position: absolute;
     top: 0;
@@ -129,11 +130,11 @@ body {
 @keyframes fadeInToRight {
     0% {
         opacity: 0;
-        transform: translateX(-100px)
+        transform: translateX(-10rem)
     }
 
     80% {
-        transform: translateX(10px);
+        transform: translateX(1rem);
     }
 
     100% {
@@ -146,11 +147,11 @@ body {
 @keyframes fadeInToLeft {
     0% {
         opacity: 0;
-        transform: translateX(100px)
+        transform: translateX(10rem)
     }
 
     80% {
-        transform: translateX(-10px);
+        transform: translateX(-1rem);
     }
 
     100% {
@@ -162,11 +163,11 @@ body {
 @keyframes fadeInUp {
     0% {
         opacity: 0;
-        transform: translateY(100px);
+        transform: translateY(10rem);
     }
 
     80% {
-        transform: translateY(-10px);
+        transform: translateY(-1rem);
     }
 
     100% {
