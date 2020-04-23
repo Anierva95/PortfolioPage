@@ -58,7 +58,7 @@ body {
 }
 
 .AboutMe {
-    background: -webkit-linear-gradient(#1293d2, #3b3c9c);
+    background: -webkit-linear-gradient(#1293d2, #585ad6f5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -95,6 +95,20 @@ body {
     color: gray;
     border-radius: 100px;
     transition: all .2s;
+    position: relative;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 100px;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
 }
 
 @keyframes fadeInToRight {
