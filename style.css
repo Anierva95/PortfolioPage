@@ -21,7 +21,9 @@ body {
     box-sizing: border-box;
 }
 
-#header {
+/* Header Section */
+
+.header {
     height: 95vh;
     background-image: linear-gradient(
         to bottom right,
@@ -35,39 +37,33 @@ body {
     text-align: center;
 }
 
-.logobox {
+.header__logobox {
     position: absolute;
     font-size: 3rem;
     top: 5rem;
     left: 8rem
 }
 
-.headerText {
+.header__Textbox {
     position: absolute;
     top: 42%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
-.headerText h1 {
+.header__Textbox h1 {
     letter-spacing: 2rem;
     font-size: 6rem;
     animation-name: fadeInToRight;
     animation-duration: 1.5s;
 }
 
-.headerText h6 {
+.header__Textbox h6 {
     letter-spacing: .5rem;
     font-size: 3rem;
     margin-bottom: 3rem;
     animation-name: fadeInToLeft;
     animation-duration: 1.5s;
-}
-
-.AboutMe {
-    background: -webkit-linear-gradient(#1293d2, #585ad6f5);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
 
 .btn {    
@@ -82,15 +78,15 @@ body {
     background-color: white;
 }
 
-.btn-left {
+.btn--left {
     right: 1rem;
 }
 
-.btn-right {
+.btn--right {
     left: 1rem;
 }
 
-.btn-animated {
+.btn--animated {
     animation-name: fadeInUp;
     animation-duration: 1s;
     animation-delay: .5s;
@@ -185,3 +181,22 @@ body {
         transform: translateY(0);
     }
 }
+
+/* About me Section */
+
+.About {
+    height: 95vh;
+    text-align: center;
+}
+
+.About--HeaderBox {
+    position: absolute;
+    left: 41%;
+    background: -webkit-linear-gradient(#1293d2, #585ad6f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+}
+
+

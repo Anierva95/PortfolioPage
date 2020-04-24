@@ -6,26 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,400&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
-    <section id="header">
-        <div class="logobox">
+    <section class="header">
+        <div class="header__logobox">
             AN|Tech
         </div>
-        <div class="headerText">
+        <div class="header__Textbox">
             <h1>ANTHONY</h1>
             <h1>NIERVA</h1>
             <h6>Full-stack Web Developer</h6>
-            <a href="#" class="btn btn-animated btn-left">Portfolio</a>
-            <a href="#" class="btn btn-animated btn-right">Resume</a>
+            <a href="#" class="btn btn--animated btn--left">Portfolio</a>
+            <a href="#" class="btn btn--animated btn--right">Resume</a>
         </div>
     </section>
-    <section>
-        <h1 class="AboutMe">About Me</h1>
+    <section class="About">
+        <div class="About--HeaderBox"       
+        data-aos="fade-up"
+        data-aos-offset="200"
+        data-aos-delay="50"
+        data-aos-duration="1000"
+        data-aos-easing="ease-in-out"
+        data-aos-mirror="true"
+        data-aos-once="true0"
+        data-aos-anchor-placement="top-center">
+        <h1 class="About--headerText">ABOUT ME</h1>
+    </div>
     </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
 </body>
 
