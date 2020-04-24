@@ -45,7 +45,7 @@ body {
 
 .headerText {
     position: absolute;
-    top: 45%;
+    top: 42%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
@@ -81,6 +81,14 @@ body {
     padding: 1.5rem 4rem;
     font-family: "Lato";
     background-color: white;
+}
+
+.btn-left {
+    right: 1rem;
+}
+
+.btn-right {
+    left: 1rem;
 }
 
 .btn-animated {
