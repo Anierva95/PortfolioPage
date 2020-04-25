@@ -1,0 +1,16 @@
+.About {
+    height: 95vh;
+    text-align: center;
+    position: relative;
+
+    &--HeaderBox {
+        position: absolute;
+        width: 100%;
+        background: -webkit-linear-gradient($color-text-primary, $color-text-secondary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+        letter-spacing: .5rem;
+        transform: translate(-50%,-50%);
+    }
+}

@@ -1,0 +1,65 @@
+.btn {    
+    display: inline-block;
+    font-size: 1.5rem;
+    font-family: 'Lato';
+    font-stretch: wider;
+    line-height: 1.7;
+    text-align: center;
+    padding: 1.5rem 4rem;
+    font-family: "Lato";
+    background-color: white;
+
+    &--left {
+        right: 1rem;
+    }
+
+    &--right {
+        left: 1rem;
+    }
+
+    &--animated {
+        animation-name: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-fill-mode: backwards;
+    }
+
+    &:hover {
+        transform: translateY(-.3rem);
+        box-shadow: 0rem 1rem 2rem $color-button-shadow;
+    }
+
+    &:active {
+        transform: translateY(-.1rem);
+        box-shadow: 0rem 1rem 1rem $color-button-shadow;
+    }
+
+    &:link,
+    &:visited {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: gray;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+    }
+
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
+
+    &:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+    }
+}

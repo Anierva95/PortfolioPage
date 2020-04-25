@@ -1,0 +1,42 @@
+.header {
+    height: 95vh;
+    background-image: linear-gradient(
+        to bottom right,
+        $color-primary, 
+        $color-secondary),
+        url(https://www.ubackground.com/_ph/3/125290873.jpg);
+    background-size: cover;
+    background-position: top;
+    clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
+    font-weight: 100;
+    text-align: center;
+
+    &__logobox {
+        position: absolute;
+        font-size: 3rem;
+        top: 5rem;
+        left: 8rem
+    }
+
+    &__Textbox {
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+
+        & h1 {
+            letter-spacing: 2rem;
+            font-size: 6rem;
+            animation-name: fadeInToRight;
+            animation-duration: 1.5s;
+        }
+
+        & h6 {
+            letter-spacing: .5rem;
+            font-size: 3rem;
+            margin-bottom: 3rem;
+            animation-name: fadeInToLeft;
+            animation-duration: 1.5s;
+        }
+    }
+}
