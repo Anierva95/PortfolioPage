@@ -4,7 +4,7 @@
   "description": "Welcome to my portfolio page!",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss style.css -w"
   },
   "repository": {
     "type": "git",
@@ -18,5 +18,8 @@
   "homepage": "https://github.com/Anierva95/PortfolioPage#readme",
   "devDependencies": {
     "node-sass": "^4.14.0"
+  },
+  "dependencies": {
+    "live-server": "^1.2.1"
   }
 }
