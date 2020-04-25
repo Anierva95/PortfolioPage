@@ -58,52 +58,43 @@ body {
   padding: 1.5rem 4rem;
   font-family: "Lato";
   background-color: white; }
-
-.btn--left {
-  right: 1rem; }
-
-.btn--right {
-  left: 1rem; }
-
-.btn--animated {
-  animation-name: fadeInUp;
-  animation-duration: 1s;
-  animation-delay: .5s;
-  animation-fill-mode: backwards; }
-
-.btn:hover {
-  transform: translateY(-0.3rem);
-  box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.3); }
-
-.btn:active {
-  transform: translateY(-0.1rem);
-  box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.3); }
-
-.btn:link,
-.btn:visited {
-  text-decoration: none;
-  text-transform: uppercase;
-  color: gray;
-  border-radius: 10rem;
-  transition: all .2s;
-  position: relative; }
-
-.btn::after {
-  content: "";
-  display: inline-block;
-  height: 100%;
-  width: 100%;
-  border-radius: 10rem;
-  background-color: white;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  transition: all .4s; }
-
-.btn:hover::after {
-  transform: scaleX(1.4) scaleY(1.6);
-  opacity: 0; }
+  .btn--left {
+    right: 1rem; }
+  .btn--right {
+    left: 1rem; }
+  .btn--animated {
+    animation-name: fadeInUp;
+    animation-duration: 1s;
+    animation-delay: .5s;
+    animation-fill-mode: backwards; }
+  .btn:hover {
+    transform: translateY(-0.3rem);
+    box-shadow: 0rem 1rem 2rem rgba(0, 0, 0, 0.3); }
+  .btn:active {
+    transform: translateY(-0.1rem);
+    box-shadow: 0rem 1rem 1rem rgba(0, 0, 0, 0.3); }
+  .btn:link, .btn:visited {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    border-radius: 10rem;
+    transition: all .2s;
+    position: relative; }
+  .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    background-color: white;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s; }
+  .btn:hover::after {
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0; }
 
 @keyframes fadeInToRight {
   0% {
@@ -140,16 +131,15 @@ body {
   height: 95vh;
   text-align: center;
   position: relative; }
-
-.About--HeaderBox {
-  position: absolute;
-  width: 100%;
-  background: -webkit-linear-gradient(#1293d2, #585ad6f5);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-size: 3rem;
-  letter-spacing: .5rem;
-  transform: translate(-50%, -50%); }
+  .About--HeaderBox {
+    position: absolute;
+    width: 100%;
+    background: -webkit-linear-gradient(#1293d2, #585ad6f5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    letter-spacing: .5rem;
+    transform: translate(-50%, -50%); }
 
 @media (max-width: 500px) {
   html {

@@ -1,4 +1,3 @@
-
 $color-primary: #1292d2bb;
 $color-secondary: #3b3d9cbc;
 $color-text-primary:#1293d2;
@@ -83,61 +82,60 @@ body {
     padding: 1.5rem 4rem;
     font-family: "Lato";
     background-color: white;
-}
 
-.btn--left {
-    right: 1rem;
-}
+    &--left {
+        right: 1rem;
+    }
 
-.btn--right {
-    left: 1rem;
-}
+    &--right {
+        left: 1rem;
+    }
 
-.btn--animated {
-    animation-name: fadeInUp;
-    animation-duration: 1s;
-    animation-delay: .5s;
-    animation-fill-mode: backwards;
-}
+    &--animated {
+        animation-name: fadeInUp;
+        animation-duration: 1s;
+        animation-delay: .5s;
+        animation-fill-mode: backwards;
+    }
 
-.btn:hover {
-    transform: translateY(-.3rem);
-    box-shadow: 0rem 1rem 2rem $color-button-shadow;
-}
+    &:hover {
+        transform: translateY(-.3rem);
+        box-shadow: 0rem 1rem 2rem $color-button-shadow;
+    }
 
-.btn:active {
-    transform: translateY(-.1rem);
-    box-shadow: 0rem 1rem 1rem $color-button-shadow;
-}
+    &:active {
+        transform: translateY(-.1rem);
+        box-shadow: 0rem 1rem 1rem $color-button-shadow;
+    }
 
-.btn:link,
-.btn:visited
-{
-    text-decoration: none;
-    text-transform: uppercase;
-    color: gray;
-    border-radius: 10rem;
-    transition: all .2s;
-    position: relative;
-}
+    &:link,
+    &:visited {
+        text-decoration: none;
+        text-transform: uppercase;
+        color: gray;
+        border-radius: 10rem;
+        transition: all .2s;
+        position: relative;
+    }
 
-.btn::after {
-    content: "";
-    display: inline-block;
-    height: 100%;
-    width: 100%;
-    border-radius: 10rem;
-    background-color: white;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    transition: all .4s;
-}
+    &::after {
+        content: "";
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+        border-radius: 10rem;
+        background-color: white;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: all .4s;
+    }
 
-.btn:hover::after {
-    transform: scaleX(1.4) scaleY(1.6);
-    opacity: 0;
+    &:hover::after {
+        transform: scaleX(1.4) scaleY(1.6);
+        opacity: 0;
+    }
 }
 
 @keyframes fadeInToRight {
@@ -195,18 +193,19 @@ body {
     height: 95vh;
     text-align: center;
     position: relative;
+
+    &--HeaderBox {
+        position: absolute;
+        width: 100%;
+        background: -webkit-linear-gradient($color-text-primary, $color-text-secondary);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-size: 3rem;
+        letter-spacing: .5rem;
+        transform: translate(-50%,-50%);
+    }
 }
 
-.About--HeaderBox {
-    position: absolute;
-    width: 100%;
-    background: -webkit-linear-gradient($color-text-primary, $color-text-secondary);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    font-size: 3rem;
-    letter-spacing: .5rem;
-    transform: translate(-50%,-50%);
-}
 
 @media (max-width: 500px) {
     html {
