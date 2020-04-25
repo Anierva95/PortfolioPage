@@ -199,7 +199,7 @@ body {
 .About--HeaderBox {
     position: absolute;
     width: 100%;
-    background: -webkit-linear-gradient(#1293d2, #585ad6f5);
+    background: -webkit-linear-gradient($color-text-primary, $color-text-secondary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-size: 3rem;
