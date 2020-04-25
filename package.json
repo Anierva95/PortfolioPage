@@ -1,0 +1,22 @@
+{
+  "name": "portfoliopage",
+  "version": "1.0.0",
+  "description": "Welcome to my portfolio page!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anierva95/PortfolioPage.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anierva95/PortfolioPage/issues"
+  },
+  "homepage": "https://github.com/Anierva95/PortfolioPage#readme",
+  "devDependencies": {
+    "node-sass": "^4.14.0"
+  }
+}
