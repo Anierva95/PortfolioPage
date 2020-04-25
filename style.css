@@ -102,7 +102,10 @@ body {
   background-position: top;
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   font-weight: 100;
-  text-align: center; }
+  text-align: center;
+  z-index: 1;
+  display: block;
+  position: relative; }
   .header__logobox {
     position: absolute;
     font-size: 3rem;
@@ -126,9 +129,13 @@ body {
       animation-duration: 1.5s; }
 
 .About {
-  height: 95vh;
+  height: 100vh;
   text-align: center;
-  position: relative; }
+  position: relative;
+  background-color: whitesmoke;
+  padding-top: 20vh;
+  margin-top: -20vh;
+  display: block; }
   .About--HeaderBox {
     position: absolute;
     width: 100%;

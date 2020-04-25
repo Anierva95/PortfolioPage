@@ -1,7 +1,11 @@
 .About {
-    height: 95vh;
+    height: 100vh;
     text-align: center;
     position: relative;
+    background-color: $color-inner-background;
+    padding-top: 20vh;
+    margin-top: -20vh;
+    display: block;
 
     &--HeaderBox {
         position: absolute;

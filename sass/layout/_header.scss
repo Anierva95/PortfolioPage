@@ -10,6 +10,9 @@
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     font-weight: 100;
     text-align: center;
+    z-index: 1;
+    display: block;
+    position: relative;
 
     &__logobox {
         position: absolute;
