@@ -26,31 +26,27 @@ body {
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   font-weight: 100;
   text-align: center; }
-
-.header__logobox {
-  position: absolute;
-  font-size: 3rem;
-  top: 5rem;
-  left: 8rem; }
-
-.header__Textbox {
-  position: absolute;
-  top: 42%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-
-.header__Textbox h1 {
-  letter-spacing: 2rem;
-  font-size: 6rem;
-  animation-name: fadeInToRight;
-  animation-duration: 1.5s; }
-
-.header__Textbox h6 {
-  letter-spacing: .5rem;
-  font-size: 3rem;
-  margin-bottom: 3rem;
-  animation-name: fadeInToLeft;
-  animation-duration: 1.5s; }
+  .header__logobox {
+    position: absolute;
+    font-size: 3rem;
+    top: 5rem;
+    left: 8rem; }
+  .header__Textbox {
+    position: absolute;
+    top: 42%;
+    left: 50%;
+    transform: translate(-50%, -50%); }
+    .header__Textbox h1 {
+      letter-spacing: 2rem;
+      font-size: 6rem;
+      animation-name: fadeInToRight;
+      animation-duration: 1.5s; }
+    .header__Textbox h6 {
+      letter-spacing: .5rem;
+      font-size: 3rem;
+      margin-bottom: 3rem;
+      animation-name: fadeInToLeft;
+      animation-duration: 1.5s; }
 
 .btn {
   display: inline-block;

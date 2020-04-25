@@ -3,6 +3,7 @@ $color-primary: #1292d2bb;
 $color-secondary: #3b3d9cbc;
 $color-text-primary:#1293d2;
 $color-text-secondary: #585ad6f5;
+$color-button-shadow: rgba(0,0,0,.3);
 
 
 *,
@@ -41,35 +42,35 @@ body {
     clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
     font-weight: 100;
     text-align: center;
-}
 
-.header__logobox {
-    position: absolute;
-    font-size: 3rem;
-    top: 5rem;
-    left: 8rem
-}
+    &__logobox {
+        position: absolute;
+        font-size: 3rem;
+        top: 5rem;
+        left: 8rem
+    }
 
-.header__Textbox {
-    position: absolute;
-    top: 42%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
+    &__Textbox {
+        position: absolute;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%,-50%);
 
-.header__Textbox h1 {
-    letter-spacing: 2rem;
-    font-size: 6rem;
-    animation-name: fadeInToRight;
-    animation-duration: 1.5s;
-}
+        & h1 {
+            letter-spacing: 2rem;
+            font-size: 6rem;
+            animation-name: fadeInToRight;
+            animation-duration: 1.5s;
+        }
 
-.header__Textbox h6 {
-    letter-spacing: .5rem;
-    font-size: 3rem;
-    margin-bottom: 3rem;
-    animation-name: fadeInToLeft;
-    animation-duration: 1.5s;
+        & h6 {
+            letter-spacing: .5rem;
+            font-size: 3rem;
+            margin-bottom: 3rem;
+            animation-name: fadeInToLeft;
+            animation-duration: 1.5s;
+        }
+    }
 }
 
 .btn {    
@@ -101,12 +102,12 @@ body {
 
 .btn:hover {
     transform: translateY(-.3rem);
-    box-shadow: 0rem 1rem 2rem rgba(0,0,0,.3);
+    box-shadow: 0rem 1rem 2rem $color-button-shadow;
 }
 
 .btn:active {
     transform: translateY(-.1rem);
-    box-shadow: 0rem 1rem 1rem rgba(0,0,0,.3);
+    box-shadow: 0rem 1rem 1rem $color-button-shadow;
 }
 
 .btn:link,
