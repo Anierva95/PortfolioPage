@@ -1,3 +1,11 @@
+@import "base/base";
+@import "base/animations";
+@import "base/typography";
+@import "base/utilities";
+@import "abstracts/functions";
+@import "abstracts/mixins";
+@import "abstracts/variables";
+
 $color-primary: #1292d2bb;
 $color-secondary: #3b3d9cbc;
 $color-text-primary:#1293d2;
