@@ -198,18 +198,9 @@ body {
   text-align: center;
   position: relative;
   background-color: #f7f7f7;
-  padding-top: 20vh;
+  padding-top: 40vh;
   margin-top: -20vh;
   display: block; }
-  .Projects--HeaderBox {
-    position: absolute;
-    width: 100%;
-    background-image: linear-gradient(to right, #1292d2bb, #3b3d9cbc);
-    -webkit-background-clip: text;
-    color: transparent;
-    font-size: 3rem;
-    letter-spacing: .5rem;
-    transform: translate(-50%, -50%); }
 
 .section-about {
   background-color: #f7f7f7;
@@ -218,9 +209,15 @@ body {
 
 .section-features {
   padding: 20rem 0;
+  position: relative;
   background-image: linear-gradient(to bottom right, #1292d2bb, #3b3d9cbc), url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
   background-size: cover;
-  background-position: center; }
+  background-position: center;
+  transform: skewY(-7deg);
+  margin-top: -9rem;
+  z-index: 10; }
+  .section-features > * {
+    transform: skewY(7deg); }
 
 .row {
   max-width: 114rem;

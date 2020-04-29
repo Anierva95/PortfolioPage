@@ -3,20 +3,10 @@
     text-align: center;
     position: relative;
     background-color: $color-inner-background;
-    padding-top: 20vh;
+    padding-top: 40vh;
     margin-top: -20vh;
     display: block;
 
-    &--HeaderBox {
-        position: absolute;
-        width: 100%;
-        background-image: linear-gradient(to right, $color-primary, $color-secondary);
-        -webkit-background-clip: text;
-        color: transparent;
-        font-size: 3rem;
-        letter-spacing: .5rem;
-        transform: translate(-50%,-50%);
-    }
 }
 
 .section-about {
@@ -27,6 +17,7 @@
 
 .section-features {
     padding: 20rem 0;
+    position: relative;
     background-image: linear-gradient(
         to bottom right,
         $color-primary, 
@@ -34,4 +25,11 @@
         url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
     background-size: cover;
     background-position: center;
+    transform: skewY(-7deg);
+    margin-top: -9rem;
+    z-index: 10;
+
+    & > * {
+        transform: skewY(7deg);
+    }
 }
