@@ -193,7 +193,7 @@ body {
       animation-name: fadeInToLeft;
       animation-duration: 1.5s; }
 
-.Projects {
+.section-projects {
   height: 100vh;
   text-align: center;
   position: relative;
