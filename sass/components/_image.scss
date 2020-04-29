@@ -1,0 +1,17 @@
+.About-Icon {
+    height: 15rem;
+    width: 15rem;
+    transition: all .5s;
+    box-shadow: .2rem .2rem .2rem .2rem;
+
+    &:not(:last-child) {
+        margin-right: 2rem;
+    }
+
+    &:hover {
+        transform: translateY(-1rem);
+        box-shadow: .3rem .3rem .3rem .5rem;
+    }
+
+
+}
