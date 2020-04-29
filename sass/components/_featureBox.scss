@@ -1,11 +1,16 @@
 .feature-box {
+    text-align: center;
+    background-color: rgba(white, .75);
+    font-size: 1.5rem;
+    padding: 2.5rem;
+    border-radius: 3px;
+    box-shadow: 0 1.5rem 10rem rgba(black, .2);
 
     &__icon {
 
     }
 
     &__text {
-
-        
+      
     }
 }

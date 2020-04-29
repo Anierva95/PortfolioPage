@@ -26,7 +26,11 @@
 }
 
 .section-features {
-    background-color: $color-inner-background;
-    padding: 25rem 0;
-    text-align: center;
+    padding: 20rem 0;
+    background-image: linear-gradient(
+        to bottom right,
+        $color-primary, 
+        $color-secondary),
+        url(https://www.ubackground.com/_ph/3/125290873.jpg);
+    background-size: cover;
 }
