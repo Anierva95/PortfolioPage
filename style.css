@@ -147,6 +147,12 @@ body {
   padding: 2.5rem;
   border-radius: 3px;
   box-shadow: 0 1.5rem 10rem rgba(0, 0, 0, 0.2); }
+  .feature-box__icon {
+    font-size: 5rem;
+    background-clip: text;
+    color: linear-gradient(to right, #1292d2bb, #3b3d9cbc); }
+  .feature-box ul {
+    list-style-type: none; }
 
 .header {
   height: 95vh;
@@ -207,8 +213,9 @@ body {
 
 .section-features {
   padding: 20rem 0;
-  background-image: linear-gradient(to bottom right, #1292d2bb, #3b3d9cbc), url(https://www.ubackground.com/_ph/3/125290873.jpg);
-  background-size: cover; }
+  background-image: linear-gradient(to bottom right, #1292d2bb, #3b3d9cbc), url(https://images.unsplash.com/photo-1550645612-83f5d594b671?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  background-size: cover;
+  background-position: center; }
 
 .row {
   max-width: 114rem;
