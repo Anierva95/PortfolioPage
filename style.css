@@ -26,11 +26,6 @@ body {
   box-sizing: border-box;
   color: #777; }
 
-body i {
-  font-family: "FontAwesome" !important;
-  font-size: 5rem;
-  text-decoration: none; }
-
 @keyframes fadeInToRight {
   0% {
     opacity: 0;
@@ -204,7 +199,9 @@ body i {
 
 .section-features {
   background-color: #f7f7f7;
-  padding: 25rem 0; }
+  padding: 25rem 0;
+  font-size: 2rem;
+  text-align: center; }
 
 .row {
   max-width: 114rem;
