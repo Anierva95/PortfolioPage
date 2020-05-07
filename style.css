@@ -160,10 +160,13 @@ body {
     color: black; }
 
 .card {
-  background-color: orangered;
-  height: 50rem;
-  transition-duration: 1s; }
-  .card:hover {
+  perspective: 150rem;
+  -moz-perspective: 150rem; }
+  .card__side {
+    background-color: orangered;
+    height: 50rem;
+    transition-duration: 1s; }
+  .card:hover .card__side {
     transform: rotateY(180deg); }
 
 .header {
@@ -202,7 +205,6 @@ body {
 
 .section-projects {
   height: 100vh;
-  text-align: center;
   position: relative;
   background-color: #f7f7f7;
   padding-top: 40vh;
