@@ -22,11 +22,14 @@
     }
 
     &--back {
-        background-image: linear-gradient(
-            to bottom right,
-            $color-primary, 
-            $color-secondary);
         transform: rotateY(180deg);
+
+        &-1 {
+            background-image: linear-gradient(
+                to bottom right,
+                $color-primary, 
+                $color-secondary);
+        }
     }
 
     }

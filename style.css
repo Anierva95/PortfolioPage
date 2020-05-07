@@ -178,8 +178,9 @@ body {
     .card__side--front {
       background-color: white; }
     .card__side--back {
-      background-image: linear-gradient(to bottom right, #1292d2bb, #3b3d9cbc);
       transform: rotateY(180deg); }
+      .card__side--back-1 {
+        background-image: linear-gradient(to bottom right, #1292d2bb, #3b3d9cbc); }
   .card:hover .card__side--front {
     transform: rotateY(180deg); }
   .card:hover .card__side--back {
