@@ -1,4 +1,6 @@
 .card {
+
+    // FUNCTIONALITY
     perspective: 150rem;
     -moz-perspective: 150rem;
     position: relative;
@@ -42,5 +44,27 @@
     
     &:hover &__side--back {
         transform: rotateY(0deg);
+    }
+    // FONT SIDE STYLING
+
+    text-align: center;
+
+    &__picture {
+        background-size: cover;
+        height: 23rem;
+        background-position: center;
+
+        &--1 {
+            background-image: url(assets/img/ecommerce.jpg);
+        }
+
+        &--2 {
+            background-image: url(assets/img/ecommerce.jpg);
+        }
+
+        &--3 {
+            background-image: url(assets/img/ecommerce.jpg);
+        }
+
     }
 }
