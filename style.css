@@ -177,13 +177,13 @@ body {
     width: 100%;
     backface-visibility: hidden;
     border-radius: 3px;
-    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2); }
+    box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
+    overflow: hidden; }
     .card__side--front {
       background-color: purple; }
     .card__side--back {
-      transform: rotateY(180deg); }
-      .card__side--back-1 {
-        background-image: linear-gradient(to bottom right, #ffb900, #ff7730); }
+      transform: rotateY(180deg);
+      background-image: linear-gradient(to bottom right, #ffb900, #ff7730); }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {
@@ -191,13 +191,14 @@ body {
   .card__picture {
     background-size: cover;
     height: 23rem;
-    background-position: center; }
+    background-position: center;
+    background-blend-mode: color; }
     .card__picture--1 {
-      background-image: url(assets/img/ecommerce.jpg); }
+      background-image: linear-gradient(to bottom right, #ffb900, #ff7730), url(assets/img/ecommerce.jpg); }
     .card__picture--2 {
-      background-image: url(assets/img/ecommerce.jpg); }
+      background-image: url(assets/img/donorspot.jpg); }
     .card__picture--3 {
-      background-image: url(assets/img/ecommerce.jpg); }
+      background-image: url(assets/img/our-night.jpg); }
 
 .header {
   height: 95vh;
