@@ -168,10 +168,10 @@ body {
   -moz-perspective: 150rem;
   position: relative;
   height: 50rem;
+  color: #777;
   text-align: center; }
   .card__side {
     height: 50rem;
-    color: #fff;
     transition-duration: .8s;
     transition-timing-function: ease;
     font-size: 2rem;
@@ -184,7 +184,7 @@ body {
     box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.2);
     overflow: hidden; }
     .card__side--front {
-      background-color: purple; }
+      background-color: white; }
     .card__side--back {
       transform: rotateY(180deg);
       background-image: linear-gradient(to bottom right, #ffb900, #ff7730); }
@@ -209,7 +209,22 @@ body {
     text-transform: uppercase;
     color: white;
     font-weight: 300;
-    font-size: 2.8rem; }
+    font-size: 2.8rem;
+    position: absolute;
+    top: 12rem;
+    right: 2rem;
+    text-align: right;
+    width: 50%; }
+  .card__heading-span {
+    padding: 1.5rem; }
+    .card__heading-span--1 {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+    .card__heading-span--2 {
+      background-image: linear-gradient(to right bottom, rgba(0, 209, 178, 0.9), rgba(0, 209, 178, 0.9)); }
+    .card__heading-span--3 {
+      background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
+  .card__details {
+    margin: 2rem 2rem; }
 
 .header {
   height: 95vh;

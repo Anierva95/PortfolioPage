@@ -5,11 +5,11 @@
     -moz-perspective: 150rem;
     position: relative;
     height: 50rem;
+    color: #777;
 
 
     &__side {
     height: 50rem;
-    color: #fff;
     transition-duration: .8s;
     transition-timing-function: ease;
     font-size: 2rem;
@@ -23,7 +23,7 @@
     overflow: hidden;
 
     &--front {
-        background-color: purple
+        background-color: white
     }
 
     &--back {
@@ -81,5 +81,28 @@
         color: white;
         font-weight: 300;
         font-size: 2.8rem;
+        position: absolute;
+        top: 12rem;
+        right: 2rem;
+        text-align: right;
+        width: 50%;
+    }
+
+    &__heading-span {
+        padding: 1.5rem;
+
+        &--1 {
+            background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+        }
+        &--2 {
+            background-image: linear-gradient(to right bottom, rgba(#00d1b2, .90), rgba(#00d1b2, .90));
+        }
+        &--3 {
+            background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+        }
+    }
+
+    &__details {
+        margin: 2rem 2rem;
     }
 }
