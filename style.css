@@ -216,7 +216,8 @@ body {
     text-align: right;
     width: 50%; }
   .card__heading-span {
-    padding: 1.5rem; }
+    padding: 1rem 1.5rem;
+    -webkit-box-decoration-break: clone; }
     .card__heading-span--1 {
       background-image: linear-gradient(to right bottom, rgba(255, 185, 0, 0.85), rgba(255, 119, 48, 0.85)); }
     .card__heading-span--2 {
