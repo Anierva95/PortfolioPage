@@ -188,6 +188,10 @@ body {
     .card__side--back {
       transform: rotateY(180deg);
       background-image: linear-gradient(to bottom right, #ffb900, #ff7730); }
+      .card__side--back ul li {
+        color: white; }
+      .card__side--back ul li h5 {
+        font-size: 3rem; }
   .card:hover .card__side--front {
     transform: rotateY(-180deg); }
   .card:hover .card__side--back {

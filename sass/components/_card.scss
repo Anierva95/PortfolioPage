@@ -33,6 +33,14 @@
             $color-secondary-light, 
             $color-secondary-dark);
 
+            & ul li {
+                color: white
+            }
+
+            & ul li h5 {
+                font-size: 3rem;
+            }
+
         &-1 {
 
         }
