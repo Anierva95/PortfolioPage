@@ -28,21 +28,16 @@
 
     &--back {
         transform: rotateY(180deg);
-        background-image: linear-gradient(
-            to bottom right,
-            $color-secondary-light, 
-            $color-secondary-dark);
-
-            & ul li {
-                color: white
-            }
-
-            & ul li h5 {
-                font-size: 3rem;
-            }
 
         &-1 {
-
+            background-image: linear-gradient(to bottom right, $color-primary, $color-secondary);
+        }
+        &-2 {
+            // background-image: linear-gradient(to bottom right, rgba(#02ffd9, .90), rgba(#02c7a9, .90));
+            background-image: linear-gradient(to bottom right, $color-primary, $color-secondary);
+        }
+        &-3 {
+            background-image: linear-gradient(to bottom right, $color-primary, $color-secondary);
         }
     }
 
@@ -69,10 +64,7 @@
         
 
         &--1 {
-            background-image: linear-gradient(
-                to bottom right,
-                $color-secondary-light, 
-                $color-secondary-dark), url(assets/img/ecommerce.jpg);
+            background-image: url(assets/img/ecommerce.jpg);
         }
 
         &--2 {
@@ -101,17 +93,44 @@
         -webkit-box-decoration-break: clone;
 
         &--1 {
-            background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+            // background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+            background-image: linear-gradient(to bottom right, $color-primary, $color-secondary);
         }
         &--2 {
-            background-image: linear-gradient(to right bottom, rgba(#00d1b2, .90), rgba(#00d1b2, .90));
+            // background-image: linear-gradient(to right bottom, rgba(#00d1b2, .90), rgba(#00bb9f, .90));
+            background-image: linear-gradient(to bottom right, $color-primary, $color-secondary);
+
         }
         &--3 {
-            background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+            // background-image: linear-gradient(to right bottom, rgba($color-secondary-light, .85), rgba($color-secondary-dark, .85));
+            background-image: linear-gradient(to bottom right, $color-primary, $color-secondary);
         }
     }
 
     &__details {
         margin: 2rem 2rem;
+    }
+
+    // BACK SIDE STYLING
+
+    &__cta {
+        position: absolute;
+        left: 50%;
+        transform: translate(-50%);
+
+        & ul li {
+            color: white;
+            list-style-type: none;
+        }
+
+        & ul li:last-child {
+            margin-bottom: 1rem;
+        }
+
+        & ul li h5 {
+            font-size: 2rem;
+            border-bottom: 1px solid white;
+            margin-top: 1.5rem;
+        }
     }
 }
