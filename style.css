@@ -128,10 +128,31 @@ body {
   .btn:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0; }
-  .btn__projects {
-    left: 43%;
+  .btn--color {
     color: whitesmoke;
     background-image: linear-gradient(to bottom right, #1292d2bb, #3b3d9cbc); }
+    .btn--color:link, .btn--color:visited {
+      text-decoration: none;
+      text-transform: uppercase;
+      color: white;
+      border-radius: 10rem;
+      transition: all .2s;
+      position: relative; }
+    .btn--color::after {
+      content: "";
+      display: inline-block;
+      height: 100%;
+      width: 100%;
+      border-radius: 10rem;
+      background-image: linear-gradient(to bottom right, #1292d2bb, #3b3d9cbc);
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      transition: all .4s; }
+    .btn--color:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0; }
 
 .About-Icon {
   height: 15rem;
