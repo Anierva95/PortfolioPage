@@ -332,9 +332,10 @@ body {
   background-image: linear-gradient(to right bottom, #1292d2bb, #3b3d9cbc); }
 
 .contact {
-  background-image: url();
+  background-image: url(./assets/img/help.jpg);
   background-size: cover;
-  height: 50rem; }
+  height: 50rem;
+  background-position: center; }
 
 .row {
   max-width: 114rem;
