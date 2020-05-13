@@ -34,3 +34,16 @@
         transform: skewY(7deg);
     }
 }
+
+.section-contact {
+    padding: 15rem 0;
+    background-image: linear-gradient(to right bottom, $color-primary, $color-secondary);
+}
+
+.contact {
+    background-image: url();
+    background-size: cover;
+
+
+    height: 50rem;
+}

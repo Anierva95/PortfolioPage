@@ -327,6 +327,15 @@ body {
   .section-features > * {
     transform: skewY(7deg); }
 
+.section-contact {
+  padding: 15rem 0;
+  background-image: linear-gradient(to right bottom, #1292d2bb, #3b3d9cbc); }
+
+.contact {
+  background-image: url();
+  background-size: cover;
+  height: 50rem; }
+
 .row {
   max-width: 114rem;
   margin: 0 auto; }
