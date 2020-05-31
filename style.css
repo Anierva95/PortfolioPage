@@ -344,16 +344,34 @@ body {
   .footer__logo {
     width: 15rem;
     height: auto; }
+  .footer__navigation {
+    border-top: 1px solid whitesmoke;
+    padding-top: 1.5rem;
+    margin-top: 5rem;
+    display: inline-block; }
   .footer__list {
-    list-style-type: none; }
+    list-style: none; }
   .footer__item {
     text-decoration: none;
-    color: whitesmoke; }
-    .footer__item:visited {
-      color: whitesmoke; }
+    color: whitesmoke;
+    display: inline-block; }
+    .footer__item:not(:last-child) {
+      margin-right: 5rem; }
+  .footer__link:visited, .footer__link:link {
+    color: whitesmoke;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: inline-block; }
+  .footer__link:hover, .footer__link:active {
+    color: #1292d2bb; }
   .footer__copyright {
-    text-align: right;
-    border-top: 1px solid white; }
+    text-align: center;
+    margin-top: 5rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid whitesmoke;
+    width: 75%;
+    right: 0;
+    margin-left: 10rem; }
 
 .header {
   height: 95vh;
