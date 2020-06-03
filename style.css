@@ -327,6 +327,12 @@ body {
   visibility: hidden;
   transform: translateY(-4rem); }
 
+.navigation__background {
+  height: 6rem;
+  width: 6rem;
+  border-radius: 50%;
+  background-color: red; }
+
 .footer {
   background-color: #333;
   padding: 10rem 0;
