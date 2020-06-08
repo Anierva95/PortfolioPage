@@ -371,6 +371,7 @@ body {
   margin: 1rem; }
 
 .navigation__link:link, .navigation__link:visited {
+  display: inline-block;
   font-size: 3rem;
   padding: 1rem 2rem;
   background-size: 100%;
@@ -379,12 +380,18 @@ body {
   text-decoration: none;
   text-transform: uppercase;
   background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
-  background-size: 220%;
+  background-size: 235%;
   transition: all .4s; }
+
+.navigation__link span {
+  margin-right: 1.5rem;
+  display: inline-block;
+  font-weight: 300; }
 
 .navigation__link:hover, .navigation__link:active {
   background-position: 100%;
-  color: #3b3d9cbc; }
+  color: #3b3d9cbc;
+  transform: translateX(1rem); }
 
 .footer {
   background-color: #333;
