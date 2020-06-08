@@ -370,13 +370,21 @@ body {
 .navigation__item {
   margin: 1rem; }
 
-.navigation__link {
+.navigation__link:link, .navigation__link:visited {
   font-size: 3rem;
+  padding: 1rem 2rem;
+  background-size: 100%;
   font-weight: 300;
   color: white;
   text-decoration: none;
   text-transform: uppercase;
-  background-image: linear-gradient(120deg, orangered 0%, orangered 50%, white 50%); }
+  background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
+  background-size: 220%;
+  transition: all .4s; }
+
+.navigation__link:hover, .navigation__link:active {
+  background-position: 100%;
+  color: #3b3d9cbc; }
 
 .footer {
   background-color: #333;
