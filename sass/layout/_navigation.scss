@@ -140,4 +140,18 @@
     &__checkbox:checked + &__button &__icon {
         background-color: transparent;
     }
+
+    &__checkbox:checked + &__button &__icon::before {
+        transform: rotate(225deg);
+        // transform: rotate(45deg);
+        top: 0;
+    }
+
+    &__checkbox:checked + &__button &__icon::after {
+        transform: rotate(135deg);
+        // transform: rotate(-45deg);
+        top: 0;
+    }
+
+
 }
