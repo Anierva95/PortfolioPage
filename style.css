@@ -472,13 +472,15 @@ body {
     display: inline-block; }
     .footer__item:not(:last-child) {
       margin-right: 5rem; }
-  .footer__link:visited, .footer__link:link {
-    color: whitesmoke;
-    text-decoration: none;
-    text-transform: uppercase;
-    display: inline-block; }
-  .footer__link:hover, .footer__link:active {
-    color: #1292d2bb; }
+  .footer__link {
+    font-size: 5rem; }
+    .footer__link:visited, .footer__link:link {
+      color: whitesmoke;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block; }
+    .footer__link:hover, .footer__link:active {
+      color: #1292d2bb; }
   .footer__copyright {
     text-align: center;
     margin-top: 5rem;
