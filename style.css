@@ -463,13 +463,16 @@ body {
     border-top: 1px solid whitesmoke;
     padding-top: 1.5rem;
     margin-top: 5rem;
-    display: inline-block; }
+    display: inline-block;
+    padding-right: 11px; }
   .footer__list {
-    list-style: none; }
+    list-style: none;
+    padding-top: 10px; }
   .footer__item {
     text-decoration: none;
     color: whitesmoke;
-    display: inline-block; }
+    display: inline-block;
+    text-align: center; }
     .footer__item:not(:last-child) {
       margin-right: 5rem; }
   .footer__link {

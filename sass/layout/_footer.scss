@@ -26,16 +26,19 @@
         padding-top: 1.5rem;
         margin-top: 5rem;
         display: inline-block;
+        padding-right: 11px;
     }
 
     &__list {
         list-style: none;
+        padding-top: 10px;
     }
 
     &__item {
         text-decoration: none;
         color: whitesmoke;
         display: inline-block;
+        text-align: center;
 
         &:not(:last-child) {
             margin-right: 5rem;
