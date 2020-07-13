@@ -7,6 +7,9 @@
     padding-bottom: 100rem;
     margin-top: -20vh;
     display: block;
+    box-shadow: 0 1rem 3rem rgba(black, .15);
+    text-align: center;
+    cursor: pointer;
 
 }
 
@@ -14,6 +17,9 @@
     background-color: $color-inner-background;
     padding: 25rem 0;
     margin-top: -20vh;
+    box-shadow: 0 1rem 3rem rgba(black, .15);
+    text-align: center;
+    cursor: pointer;
 }
 
 .section-features {

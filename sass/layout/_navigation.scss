@@ -1,6 +1,9 @@
 .navigation {
     &__checkbox {
         display: none;
+        box-shadow: 0 1rem 3rem rgba(black, .15);
+        text-align: center;
+        cursor: pointer;
     }
 
     &__button {
