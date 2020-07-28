@@ -5,3 +5,10 @@
         clear: both;
     }
 }
+
+// Media Query
+
+
+@mixin respond-phone {
+    @media (max-width: 600px);
+}
